@@ -43,4 +43,9 @@ public class ZerodhaLoginPageTest extends BaseTest
 		ZerodhaLoginPage zerodhaLoginPage= new ZerodhaLoginPage(driver);
 		zerodhaLoginPage.ClickOnSignUp();
 	}
+	@Test
+	public void Signup1()
+	{
+		System.out.println("Hello");
+	}
 }
